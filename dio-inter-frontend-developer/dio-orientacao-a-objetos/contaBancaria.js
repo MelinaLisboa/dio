@@ -72,6 +72,10 @@ const contaCorr = new ContaCorrente('0310', '521999000', true);
 const contaUni = new ContaUniversitaria('1200', '522200111');
 
 console.log(contaCorr);
+console.log(contaCorr.sacar(100));
+console.log(contaCorr.depositar(800));
+console.log(contaCorr.sacar(100));
+
 console.log(contaUni);
 console.log(contaUni.sacar(100));
 console.log(contaUni.sacar(1000));

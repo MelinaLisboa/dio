@@ -1,7 +1,7 @@
 
-function converterValores(arr, cmParaMetro){
+function converterValores(arr, thisArg){
     console.log(`Valores em cm:[${arr}].\n`);
-    const newArr = arr.map(minhaFuncao, cmParaMetro);
+    const newArr = arr.map(minhaFuncao, thisArg);
     console.log(`Valores convertidos para metro: [${newArr}].\n`);
 }
 
